@@ -57,7 +57,7 @@ switch(movie){
     case "batman":
         console.log(`you 're going to watch ${movie}`)
         break
-        case "titanic":
+        case "avatar":
             console.log(`you 're going to watch ${movie}`)
         break
         case "The Avengers":
