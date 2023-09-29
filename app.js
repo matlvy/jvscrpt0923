@@ -1,38 +1,4 @@
-/* let nombre = "Coderhouse"
-console.log(nombre)
-let edad = 25
-console.log(edad)
-
-let numero1 = 20
-let numero2 = 30
-console.log(numero1 + numero2)
-alert(numero1 + numero2) 
-
-let primerValor = parseInt(prompt("Ingrese el primer valor"))
-let segundoValor = parseInt(prompt("Ingrese el segundo valor"))
-alert(+primerValor + segundoValor)
-
-let primerValor = parseInt(prompt("Ingrese el primer valor"))
-let segundoValor = parseInt(prompt("Ingrese el segundo valor"))
-alert(+primerValor + segundoValor)
-
-let nombre = prompt("Ingrese su nombre")
-let apellido = prompt("Ingrese su apellido")
-alert("Usted se llama: " + nombre + " " + apellido) 
-
-let calificacion = 5
-if (calificacion >= 6) { console.log('aprobado') }
-else if (calificacion < 6) { console.log('reprobado') }  
-
-let nombre = prompt("Ingrese nombre")
-let apellido = prompt("Ingrese apellido")
-/*const apellido = "levy"
-
-if ((nombre == "brad") && (apellido == "pitt")) { alert("You are a Hollywood star!"); }
-if ((nombre == "matias") && (apellido == "levy")) { alert("you're a genius!"); }
-else if ((nombre != "") && (apellido != "")) { alert("Su nombre completo es: " + nombre + " " + apellido); }
-else { alert("Debe ingresar su nombre y apellido para continuar en el sitio.") } 
-
+/* 
 let movie=prompt("What movie are you going to watch?")
 switch(movie){
     case "the dark knight":
@@ -70,11 +36,19 @@ switch(movie){
         let i=0
         while(i<=10){console.log(i)
         i++
-    } */
-
+    } 
     let number=parseInt(prompt("Tell us a number please"))
     for (let i=1; i<=10; i++){
         let product=number*i
         console.log(`${number}*${i}=${product}`)
     }
-    
+    */
+const tipo_producto_1 = "Notebook"
+const marca_producto_1 = "Dell"
+
+let marca_producto_seleccionado = prompt("Que marca de notebook desea comprar?")
+if (marca_producto_seleccionado == marca_producto_1) { alert("Felicitaciones! Has decidido comprar la nueva " + tipo_producto_1 + " " + marca_producto_1) }
+else if (marca_producto_seleccionado != "") { alert("Lo sentimos. El producto que buscas no se encuentra disponible") }
+else { alert("Atencion! Debes ingresar una opcion para continuar.") }
+
+let precio_producto_1 = "$600000"
