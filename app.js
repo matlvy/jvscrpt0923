@@ -1,14 +1,13 @@
 
-/*
 function welcome() {
-    let fullname = prompt("Ingrese su nombre completo")
-    alert("Hola " + fullname + "! A continuacion, debera ingresar al sitio para continuar")
-    let username = prompt("Ingrese su usuario")
+    let name = prompt("Ingrese su nombre")
+    alert("Hola " + name + "! A continuacion, debera ingresar al sitio para continuar")
     let email = prompt("Ingrese su email")
-    alert("Bienvenido a nuestro ecommerce " + username + "!")
+    let password = prompt("Ingrese su contraseña")
+    alert("Bienvenido a nuestro ecommerce " + name + "!")
 }
 welcome()
-*/
+
 const films = [
     id1 = { Pelicula: "Titanic", Genero: "Drama", Fecha: 1997, Rating: 7.9, Precio: 1000 },
     id2 = { Pelicula: "Avatar", Genero: "Aventura", Fecha: 2009, Rating: 7.9, Precio: 2000 },
@@ -29,8 +28,11 @@ films.push(id11 = { Pelicula: "Star Wars", Genero: "Sci-Fi", Fecha: 1977, Rating
 
 films.map((f) => { console.log(f) })
 
-let filtrar = films.filter((f) => f.Genero === "Sci-Fi")
-console.log(filtrar)
+let filter1 = films.filter((f) => f.Genero === "Sci-Fi")
+console.log(filter1)
+
+let filter2 = films.filter((f) => f.Rating >= 9)
+console.log(filter2)
 
 let buscar = films.find((f) => f.Precio < 2000)
 console.log(buscar)
@@ -41,3 +43,17 @@ cart.push(id1, id2)
 console.log(cart)
 let purchased = cart.reduce((accum, f) => { return accum + f.Precio }, 0)
 console.log(purchased)
+
+const catalog = document.querySelector(".catalog")
+console.log(catalog)
+
+for (let film of films) {
+    let list = document.createElement("div")
+    list.innerHTML = `
+        <h3>Titulo: ${film.Pelicula}</h3>
+        <h4>Precio: ${film.Precio}</h4>
+        <h4>Rating: ${film.Rating}</h4>
+        <button type="submit" class="btn btn-success">Agregar al carrito</button>
+        `
+    document.body.appendChild(list)
+}
