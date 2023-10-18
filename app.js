@@ -1,13 +1,16 @@
 
 function welcome() {
     let name = prompt("Ingrese su nombre")
-    alert("Hola " + name + "! A continuacion, debera ingresar al sitio para continuar")
+    { alert("Hola " + name + "! A continuacion, debera ingresar al sitio para continuar") }
     let email = prompt("Ingrese su email")
-    let password = prompt("Ingrese su contraseña")
-    alert("Bienvenido a nuestro ecommerce " + name + "!")
+    if (email == "") { alert("Atencion! Debes ingresar su email para continuar.") }
+    else {
+        let password = prompt("Ingrese su contraseña")
+        if (password == "") { alert("Atencion! Debes ingresar su contraseña para continuar") }
+        else { alert("Bienvenido a nuestro ecommerce!") }
+    }
 }
 welcome()
-
 const films = [
     id1 = { Pelicula: "Titanic", Genero: "Drama", Fecha: 1997, Rating: 7.9, Precio: 1000 },
     id2 = { Pelicula: "Avatar", Genero: "Aventura", Fecha: 2009, Rating: 7.9, Precio: 2000 },
@@ -37,12 +40,18 @@ console.log(filter2)
 let buscar = films.find((f) => f.Precio < 2000)
 console.log(buscar)
 
+let initial_stock = [500]
 let cart = []
 
 cart.push(id1, id2)
 console.log(cart)
-let purchased = cart.reduce((accum, f) => { return accum + f.Precio }, 0)
-console.log(purchased)
+console.log(cart.length)
+
+let current_stock = initial_stock.reduce((s, accum) => { return accum - cart.length }, 0)
+console.log(current_stock)
+
+let total_compra = cart.reduce((accum, f) => { return accum + f.Precio }, 0)
+console.log(total_compra)
 
 const catalog = document.querySelector(".catalog")
 console.log(catalog)
