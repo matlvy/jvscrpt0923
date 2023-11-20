@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "Pelicula": "Titanic",
+        "Genero": "Drama",
+        "Fecha": 1997,
+        "Rating": 7.9,
+        "Precio": 1000,
+        "img": "https://m.media-amazon.com/images/I/81CVRAQi46L._AC_UF1000,1000_QL80_.jpg",
+        "button": "buttonid1"
+    },
+    {
+        "id": 2,
+        "Pelicula": "Avatar",
+        "Genero": "Aventura",
+        "Fecha": 2009,
+        "Rating": 7.9,
+        "Precio": 2000,
+        "img": "https://cms.giggster.com/guide/directus/assets/8d56bf1b-b325-4e73-abc1-ed718a42f7b6?fit=cover&width=400&quality=80",
+        "button": "buttonid2"
+    },
+    {
+        "id": 3,
+        "Pelicula": "The Terminator",
+        "Genero": "Accion",
+        "Fecha": 1984,
+        "Rating": 8.1,
+        "Precio": 2000,
+        "img": "https://m.media-amazon.com/images/I/61sQGAWUOWL.jpg",
+        "button": "buttonid3"
+    },
+    {
+        "id": 4,
+        "Pelicula": "Back to the Future",
+        "Genero": "Aventura",
+        "Fecha": 1985,
+        "Rating": 8.5,
+        "Precio": 1500,
+        "img": "https://www.coverwhiz.com/uploads/movies/back-to-the-future.jpg",
+        "button": "buttonid4"
+    },
+    {
+        "id": 5,
+        "Pelicula": "The Dark Knight",
+        "Genero": "Accion",
+        "Fecha": 2008,
+        "Rating": 9,
+        "Precio": 2500,
+        "img": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
+        "button": "buttonid5"
+    },
+    {
+        "id": 6,
+        "Pelicula": "Inception",
+        "Genero": "Sci-Fi",
+        "Fecha": 2010,
+        "Rating": 8.8,
+        "Precio": 2000,
+        "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+        "button": "buttonid6"
+    },
+    {
+        "id": 7,
+        "Pelicula": "Matrix",
+        "Genero": "Sci-Fi",
+        "Fecha": 1999,
+        "Rating": 8.7,
+        "Precio": 2000,
+        "img": "https://i.ebayimg.com/images/g/XSkAAMXQ0pNQ90S4/s-l500.jpg",
+        "button": "buttonid7"
+    },
+    {
+        "id": 8,
+        "Pelicula": "Jurassic Park",
+        "Genero": "Accion",
+        "Fecha": 1993,
+        "Rating": 8.2,
+        "Precio": 2000,
+        "img": "https://pm1.aminoapps.com/6804/1761c347e5185d1ae978799970120a84b632cb52v2_hq.jpg",
+        "button": "buttonid8"
+    },
+    {
+        "id": 9,
+        "Pelicula": "The Godfather",
+        "Genero": "Crimen",
+        "Fecha": 1972,
+        "Rating": 9.2,
+        "Precio": 2000,
+        "img": "https://www.coverwhiz.com/uploads/movies/the-godfather.jpg",
+        "button": "buttonid9"
+    },
+    {
+        "id": 10,
+        "Pelicula": "Halloween",
+        "Genero": "Thriller",
+        "Fecha": 1978,
+        "Rating": 7.7,
+        "Precio": 1000,
+        "img": "https://i.etsystatic.com/35681979/r/il/483bae/3955786821/il_570xN.3955786821_mj7y.jpg",
+        "button": "buttonid10"
+    },
+    {
+        "id": 11,
+        "Pelicula": "Star Wars",
+        "Genero": "Sci-Fi",
+        "Fecha": 1977,
+        "Rating": 8.6,
+        "Precio": 2000,
+        "img": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/1-star-wars-episode-iv-a-new-hope-1977--album.jpg",
+        "button": "buttonid11"
+    }
+]

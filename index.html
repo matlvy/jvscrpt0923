@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">My Ecommerce</a>
+        <a class="navbar-brand" href="#">Peliculas On-line</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,21 +50,13 @@
             <button type="submit" id="button" class="btn btn-primary">Ingresar</button>
     </form>
     </div>
-    <div class="catalog">
-        <h2>Top 10
-            <button type="submit" id="buttonid1" class="btn btn-success">Quiero comprar Titanic</button>
-            <button type="submit" id="buttonid2" class="btn btn-success">Quiero comprar Avatar</button>
-            <button type="submit" id="buttonid3" class="btn btn-success">Quiero comprar The Terminator</button>
-            <button type="submit" id="buttonid4" class="btn btn-success">Quiero comprar Back to the Future</button>
-            <button type="submit" id="buttonid5" class="btn btn-success">Quiero comprar The Dark Knight</button>
-            <button type="submit" id="buttonid6" class="btn btn-success">Quiero comprar Inception</button>
-            <button type="submit" id="buttonid7" class="btn btn-success">Quiero comprar Matrix</button>
-            <button type="submit" id="buttonid8" class="btn btn-success">Quiero comprar Jurassic Park</button>
-            <button type="submit" id="buttonid9" class="btn btn-success">Quiero comprar The Godfather</button>
-            <button type="submit" id="buttonid10" class="btn btn-success">Quiero comprar Halloween</button>
-            <button type="submit" id="buttonid11" class="btn btn-success">Quiero comprar Star Wars</button>
-            <button type="submit" id="buttonid12" class="btn btn-danger">Quiero vaciar mi carrito</button>
-    </div>
+    <section class="gridsection1">
+        <div class="catalog">
+            <h2> Top 10</h2>
+        </div>
+
+        <h3><button type="button" id="buttonid12" class="btn btn-danger">Vaciar mi carrito</button></h3>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -76,7 +68,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-
+    <script src="./data.json"></script>
     <script src="./app.js"></script>
 
 </body>
